@@ -1,0 +1,27 @@
+* Tener en cuenta disparadores para el manejo de los distintos estados de una reserva.
+
+Esta es la función que se utilizó para evitar que colisionaran las reservas de equipos
+
+-- Function: colision2(timestamp without time zone, timestamp without time zone, integer)
+
+-- DROP FUNCTION colision2(timestamp without time zone, timestamp without time zone, integer);
+
+CREATE OR REPLACE FUNCTION colision2(timestamp without time zone, timestamp without time zone, integer)
+  RETURNS boolean AS
+$BODY$
+begin
+   PERFORM * FROM reserva_equipo where ((fecha_inicio BETWEEN ($1) and ($2)) or (fecha_fin BETWEEN ($1) and ($2)) or (($1) BETWEEN (fecha_inicio) and (fecha_fin))) and fk_equipo=($3);
+   IF NOT FOUND THEN
+	RETURN FALSE;
+   ELSE
+	RETURN TRUE;
+   END IF;   
+   
+end;
+$BODY$
+  LANGUAGE plpgsql VOLATILE
+  COST 100;
+ALTER FUNCTION colision2(timestamp without time zone, timestamp without time zone, integer)
+  OWNER TO postgres;
+
+
