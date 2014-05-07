@@ -753,3 +753,926 @@ LINE 1: SELECT reserva_equipo  WHERE estado <> 1 and (fecha_inicio+i...
 )
 
 [20-Feb-2014 16:10:00 America/Bogota] 1
+[06-May-2014 17:37:49 America/Bogota] ¡Pilas! Array
+(
+    [0] => 42883
+    [1] => 7
+    [2] => ERROR:  no existe la función limpiar_reserva()
+LINE 1: select limpiar_reserva()
+               ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+)
+
+[06-May-2014 19:43:11 America/Bogota] ¡Pilas! Array
+(
+    [0] => 42883
+    [1] => 7
+    [2] => ERROR:  no existe la función limpiar_reserva()
+LINE 1: select limpiar_reserva()
+               ^
+HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+)
+
+[06-May-2014 20:34:09 America/Bogota] SELECT nombre FROM sala 
+[06-May-2014 20:34:10 America/Bogota] SELECT nombre FROM sede 
+[06-May-2014 20:34:10 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 5
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => Bellas Artes
+                    [cell] => Array
+                        (
+                            [0] => Bellas Artes
+                            [1] => chipre
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => CENTRAL
+                    [cell] => Array
+                        (
+                            [0] => CENTRAL
+                            [1] => CLL 59
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => Ciencias Juridicas y Sociales
+                    [cell] => Array
+                        (
+                            [0] => Ciencias Juridicas y Sociales
+                            [1] => palogrande
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => Ciencias para la Salud
+                    [cell] => Array
+                        (
+                            [0] => Ciencias para la Salud
+                            [1] => cll 49
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => sedeprueba
+                    [cell] => Array
+                        (
+                            [0] => sedeprueba
+                            [1] => local
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:34:10 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 5
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => H1
+                    [cell] => Array
+                        (
+                            [0] => H1
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => H2
+                    [cell] => Array
+                        (
+                            [0] => H2
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => I
+                    [cell] => Array
+                        (
+                            [0] => I
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => J
+                    [cell] => Array
+                        (
+                            [0] => J
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => K
+                    [cell] => Array
+                        (
+                            [0] => K
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:34:10 America/Bogota] SELECT nombre FROM bloque 
+[06-May-2014 20:34:10 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 3
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => C
+                    [cell] => Array
+                        (
+                            [0] => C
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => D
+                    [cell] => Array
+                        (
+                            [0] => D
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => pr
+                    [cell] => Array
+                        (
+                            [0] => pr
+                            [1] => sedeprueba
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:34:29 America/Bogota] SELECT nombre FROM sede 
+[06-May-2014 20:34:29 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 5
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => Bellas Artes
+                    [cell] => Array
+                        (
+                            [0] => Bellas Artes
+                            [1] => chipre
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => CENTRAL
+                    [cell] => Array
+                        (
+                            [0] => CENTRAL
+                            [1] => CLL 59
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => Ciencias Juridicas y Sociales
+                    [cell] => Array
+                        (
+                            [0] => Ciencias Juridicas y Sociales
+                            [1] => palogrande
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => Ciencias para la Salud
+                    [cell] => Array
+                        (
+                            [0] => Ciencias para la Salud
+                            [1] => cll 49
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => sedeprueba
+                    [cell] => Array
+                        (
+                            [0] => sedeprueba
+                            [1] => local
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:34:41 America/Bogota] SELECT nombre FROM sede 
+[06-May-2014 20:34:41 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 6
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => Bellas Artes
+                    [cell] => Array
+                        (
+                            [0] => Bellas Artes
+                            [1] => chipre
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => CENTRAL
+                    [cell] => Array
+                        (
+                            [0] => CENTRAL
+                            [1] => CLL 59
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => Ciencias Juridicas y Sociales
+                    [cell] => Array
+                        (
+                            [0] => Ciencias Juridicas y Sociales
+                            [1] => palogrande
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => Ciencias para la Salud
+                    [cell] => Array
+                        (
+                            [0] => Ciencias para la Salud
+                            [1] => cll 49
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => sedeprueba
+                    [cell] => Array
+                        (
+                            [0] => sedeprueba
+                            [1] => local
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => ss
+                    [cell] => Array
+                        (
+                            [0] => ss
+                            [1] => ss
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:34:46 America/Bogota] DELETE FROM sede WHERE nombre='ss'
+[06-May-2014 20:34:46 America/Bogota] SELECT nombre FROM sede 
+[06-May-2014 20:34:46 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 5
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => Bellas Artes
+                    [cell] => Array
+                        (
+                            [0] => Bellas Artes
+                            [1] => chipre
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => CENTRAL
+                    [cell] => Array
+                        (
+                            [0] => CENTRAL
+                            [1] => CLL 59
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => Ciencias Juridicas y Sociales
+                    [cell] => Array
+                        (
+                            [0] => Ciencias Juridicas y Sociales
+                            [1] => palogrande
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => Ciencias para la Salud
+                    [cell] => Array
+                        (
+                            [0] => Ciencias para la Salud
+                            [1] => cll 49
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => sedeprueba
+                    [cell] => Array
+                        (
+                            [0] => sedeprueba
+                            [1] => local
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:04 America/Bogota] SELECT nombre FROM bloque 
+[06-May-2014 20:35:04 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 4
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => C
+                    [cell] => Array
+                        (
+                            [0] => C
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => D
+                    [cell] => Array
+                        (
+                            [0] => D
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => pr
+                    [cell] => Array
+                        (
+                            [0] => pr
+                            [1] => sedeprueba
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => ss
+                    [cell] => Array
+                        (
+                            [0] => ss
+                            [1] => sedeprueba
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:11 America/Bogota] SELECT nombre FROM bloque 
+[06-May-2014 20:35:11 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 4
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => C
+                    [cell] => Array
+                        (
+                            [0] => C
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => D
+                    [cell] => Array
+                        (
+                            [0] => D
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => pr
+                    [cell] => Array
+                        (
+                            [0] => pr
+                            [1] => sedeprueba
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => ss
+                    [cell] => Array
+                        (
+                            [0] => ss
+                            [1] => sedeprueba
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:25 America/Bogota] SELECT nombre FROM sala 
+[06-May-2014 20:35:25 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 6
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => H1
+                    [cell] => Array
+                        (
+                            [0] => H1
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => H2
+                    [cell] => Array
+                        (
+                            [0] => H2
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => I
+                    [cell] => Array
+                        (
+                            [0] => I
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => J
+                    [cell] => Array
+                        (
+                            [0] => J
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => K
+                    [cell] => Array
+                        (
+                            [0] => K
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => ss
+                    [cell] => Array
+                        (
+                            [0] => ss
+                            [1] => 34
+                            [2] => ss
+                            [3] => sedeprueba
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:36 America/Bogota] SELECT nombre FROM sala 
+[06-May-2014 20:35:36 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 6
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => H1
+                    [cell] => Array
+                        (
+                            [0] => H1
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => H2
+                    [cell] => Array
+                        (
+                            [0] => H2
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => I
+                    [cell] => Array
+                        (
+                            [0] => I
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => J
+                    [cell] => Array
+                        (
+                            [0] => J
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => K
+                    [cell] => Array
+                        (
+                            [0] => K
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => ss
+                    [cell] => Array
+                        (
+                            [0] => ss
+                            [1] => 34
+                            [2] => ss
+                            [3] => sedeprueba
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:43 America/Bogota] SELECT nombre FROM sala 
+[06-May-2014 20:35:43 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 5
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => H1
+                    [cell] => Array
+                        (
+                            [0] => H1
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => H2
+                    [cell] => Array
+                        (
+                            [0] => H2
+                            [1] => 20
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => I
+                    [cell] => Array
+                        (
+                            [0] => I
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => J
+                    [cell] => Array
+                        (
+                            [0] => J
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => K
+                    [cell] => Array
+                        (
+                            [0] => K
+                            [1] => 40
+                            [2] => C
+                            [3] => CENTRAL
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:48 America/Bogota] SELECT nombre FROM bloque 
+[06-May-2014 20:35:48 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 3
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => C
+                    [cell] => Array
+                        (
+                            [0] => C
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => D
+                    [cell] => Array
+                        (
+                            [0] => D
+                            [1] => CENTRAL
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => pr
+                    [cell] => Array
+                        (
+                            [0] => pr
+                            [1] => sedeprueba
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:35:53 America/Bogota] DELETE FROM sede WHERE nombre='sedeprueba'
+[06-May-2014 20:35:54 America/Bogota] SELECT nombre FROM sede 
+[06-May-2014 20:35:54 America/Bogota] Array
+(
+    [total] => 1
+    [page] => 1
+    [records] => 4
+    [rows] => Array
+        (
+            [0] => Array
+                (
+                    [id] => Bellas Artes
+                    [cell] => Array
+                        (
+                            [0] => Bellas Artes
+                            [1] => chipre
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => CENTRAL
+                    [cell] => Array
+                        (
+                            [0] => CENTRAL
+                            [1] => CLL 59
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => Ciencias Juridicas y Sociales
+                    [cell] => Array
+                        (
+                            [0] => Ciencias Juridicas y Sociales
+                            [1] => palogrande
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => Ciencias para la Salud
+                    [cell] => Array
+                        (
+                            [0] => Ciencias para la Salud
+                            [1] => cll 49
+                        )
+
+                )
+
+        )
+
+)
+
+[06-May-2014 20:36:00 America/Bogota] 0
+[06-May-2014 20:36:00 America/Bogota] 0
+[06-May-2014 20:36:03 America/Bogota] H1
+[06-May-2014 20:36:03 America/Bogota] H1
+[06-May-2014 20:36:31 America/Bogota] SELECT horario_disponible('H1', 0, '', '','', '')
+[06-May-2014 20:36:31 America/Bogota] 
+[06-May-2014 20:38:47 America/Bogota] 0
+[06-May-2014 20:38:47 America/Bogota] 0
+[06-May-2014 20:38:50 America/Bogota] J
+[06-May-2014 20:38:50 America/Bogota] J
+[06-May-2014 20:41:13 America/Bogota] 0
+[06-May-2014 20:41:13 America/Bogota] 0
+[06-May-2014 20:41:26 America/Bogota] H1
+[06-May-2014 20:41:26 America/Bogota] H1
+[06-May-2014 20:48:02 America/Bogota] 0
+[06-May-2014 20:48:02 America/Bogota] 0
+[06-May-2014 20:48:11 America/Bogota] H1
+[06-May-2014 20:48:11 America/Bogota] H1
+[06-May-2014 20:58:48 America/Bogota] 0
+[06-May-2014 20:58:48 America/Bogota] 0
+[06-May-2014 20:58:50 America/Bogota] I
+[06-May-2014 20:58:50 America/Bogota] I
+[06-May-2014 20:59:09 America/Bogota] 0
+[06-May-2014 20:59:09 America/Bogota] 0
+[06-May-2014 21:50:05 America/Bogota] 0
+[06-May-2014 21:50:06 America/Bogota] 0
+[06-May-2014 21:50:07 America/Bogota] H2
+[06-May-2014 21:50:07 America/Bogota] H2
+[06-May-2014 21:50:21 America/Bogota] SELECT horario_disponible('H2', 3, '2014-05-07', '2014-05-07','06:30:00', '07:00:00')
+[06-May-2014 21:50:21 America/Bogota] 

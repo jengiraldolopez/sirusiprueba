@@ -1,7 +1,11 @@
 var anchoContenedor; // El ancho disponible en el contenedor
 var fechaInicio, fechaFin;
+var usuario;
 $(document).on('ready', function() {
 
+// CUIDADO: para pruebas se está suponiendo el usuario autenticado:
+    usuario = {id: '0002', nombre: 'Darwin Cuesta'};
+    
     anchoContenedor = $('#columnaContenido').outerWidth() * 0.94;
 
     $('#index-frmautentica').dialog({
